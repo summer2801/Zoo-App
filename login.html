@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="loading-animation">
+        <div class="loading-dots" style="--delay: 0.2s"></div>
+        <div class="loading-dots" style="--delay: 0.3s"></div>
+        <div class="loading-dots" style="--delay: 0.4s"></div>
+    </div>
+    <div class="container">
+        <section class="form Login">
+            <header>Login Form</header>
+            <form action="#" method="post" autocomplete="off">
+                <div class="error-txt"></div>
+                <div class="field input">
+                    <input type="email" name="email" placeholder="Enter Email" required>
+                </div>
+                <div class="field input">
+                    <input type="password" name="password" placeholder="New password" required>
+                    <img src="eye-line.svg" alt="">
+                </div>
+                <div class="field button">
+                    <input type="submit" name="submit" value="Submit" required>
+                </div>
+            </form>
+            <div class="link">Not Yet Signup?<a href="index.html">Signin Now</a></div>
+        </section>
+    </div>
+
+
+    <script src="login.js"></script>
+    <script src="password.js"></script>
+</body>
+</html>

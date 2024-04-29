@@ -1,0 +1,179 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.background img {
+    width: 100%;
+    height: 80%;
+    /* object-fit: cover;
+    object-position: bottom; */
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: orange;
+    margin-left: 10%;
+    font-weight: 600;
+}
+.nav {
+    background-color: green;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 8%;
+    gap: 2%;
+}
+.nav-link {
+    color: black;
+}
+
+.active {
+    font-weight: 900;
+}
+
+/* index.html */
+.showcase {
+    margin-top: 9%;
+    margin-left: 9%;
+    background-color: rgba(245, 245, 220, 0.719);
+    padding: 10px;
+}
+
+.text-smaller {
+    font-size: 1.6rem;
+    font-family: cursive;
+    color: orange;
+}
+
+.main-text {
+    font-size: 2.2rem;
+    width: 40%;
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.gallery-info {
+    margin-top: 12%;
+    margin-left: 4%;
+    margin-bottom: 7%;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.informationOne {
+    justify-content: center;
+    width: 32%;
+    background-color: orange;
+    padding: 8px;
+}
+
+.informationTwo {
+    justify-content: center;
+    width: 32%;
+    background-color: orange;
+    padding: 8px;
+}
+
+.informationThree {
+    justify-content: center;
+    width: 32%;
+    background-color: orange;
+    padding: 11px;
+}
+
+/* Page.html */
+
+.display-behind img {
+    left: 7%;
+    width: 90%;
+    height: 30rem;
+    object-fit: cover;
+    object-position: bottom; 
+    border-radius: 7px;
+    position: absolute;
+    z-index: -1;
+    top: 1%;
+}
+
+.safety {
+    margin-top: 18%;
+    margin-left: 8%;
+    background-color: green;
+    padding: 8px;
+    margin-bottom: 7%;
+}
+
+
+
+
+
+.safety img {
+    width: 20%;
+    height: 40%;
+
+}
+
+.highlight {
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: rgb(128, 128, 243);
+    max-width: 400px;
+    min-height: 100px;
+    padding: 2px;
+}
+
+.galleryOne, .galleryTwo, .galleryThree, .galleryFour, .galleryFive, .gallerySix {
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    margin-top: 1%;
+
+}
+
+.displayOne, .displayTwo, .displayThree, .displayFour, .displayFive, .displaySix {
+    display: none;
+}
+
+.warn, .warnTwo, .safe, .warnThree {
+    display: none;
+}
+
+.large-view p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.6rem;
+    width: 60%;
+    color: antiquewhite;
+    margin-top: 22%;
+    margin-left: 10%;
+}
+
+/* gallery.html */
+.row {
+    margin-top: 1%;
+    background-color: green;
+    margin-left: 8%;
+    gap: 1%;
+    margin-bottom: 1%;
+}
+.col-sm img{
+  width: 70%;
+}
+
+.col-sm {
+    margin-top: 1%;
+}

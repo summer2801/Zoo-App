@@ -1,0 +1,116 @@
+body {
+    background-color: green;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: orange;
+    position: absolute;  
+    left: 50%;
+    top: 50%;
+    margin: -50px 0px 0px -50px;
+    height: 120px;
+    width: 120px;
+    border-radius: 10%;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+.textbox {
+    margin: -80px 0px 0px 150px;
+    height: 160px;
+    width: 0px;
+    opacity: 0%;
+    transition-property: translate width opacity;
+    transition-duration: 1.5s;
+}
+
+.textbox u {
+    font-size: 23px;
+}
+
+.text {
+    opacity: 0%;
+    transition-property: opacity;
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
+
+
+.box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.imagebox {
+    filter: brightness(40%);
+    transition-property: filter translate;
+    transition-duration: 1.5s;
+}
+
+.imagebox:hover {
+    width: 200px;
+    height: 200px;
+    translate: -50px -50px;
+    filter: brightness(100%);
+    transition-property: filter translate;
+    transition-duration: 1.5s;
+}
+
+#img1 {
+    transform: translateX(200px);
+}
+
+#img2 {
+    transform: translate(100px, -173px);
+}
+
+#img3 {
+    transform: translate(-100px, -173px);
+}
+
+#img4 {
+    transform: translateX(-200px);
+}
+
+#img5 {
+    transform: translate(-100px, 173px);
+}
+
+#img6 {
+    transform: translate(100px, 173px);
+}
+
+#text1 {
+    transform: translateX(200px);
+}
+
+#text2 {
+    transform: translate(100px, -173px);
+}
+
+#text3 {
+    transform: translate(-700px, -173px);
+}
+
+#text4 {
+    transform: translateX(-800px);
+}
+
+#text5 {
+    transform: translate(-700px, 173px);
+}
+
+#text6 {
+    transform: translate(100px, 173px);
+}
